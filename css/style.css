@@ -3,8 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-/* font-family: 'Seven Segment', sans-serif; */
 /* INIZIO CONTAINER */
 .container{
     width: 100%;
@@ -16,9 +14,12 @@
     display: flex;
 }
 
-.center{
-    justify-content: center;
+.align-center{
     align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
 }
 /* INIZIO CALCOLATRICE */
 .calcolatrice{
@@ -26,6 +27,7 @@
     height: 300px;
     background-color: lightgray;
     border-radius: 10px;
+    flex-direction: column;
 }
 /* INIZIO NOME */
 .name{
@@ -34,3 +36,18 @@
     font-size: 20px;
 }
 /* FINE NOME */
+/* INIZIO MONITOR */
+.monitor{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: aquamarine;
+    font-family: 'Seven Segment', sans-serif;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+/* FINE MONITOR */
