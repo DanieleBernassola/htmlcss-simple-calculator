@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Seven Segment', sans-serif; */
+/* INIZIO CONTAINER */
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+/* INIZIO CALCOLATRICE */
+.calcolatrice{
+    width: 250px;
+    height: 300px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+/* INIZIO NOME */
+.name{
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+}
+/* FINE NOME */
